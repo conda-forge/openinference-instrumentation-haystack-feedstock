@@ -1,5 +1,5 @@
 {% set name = "openinference-instrumentation-haystack" %}
-{% set version = "0.1.18" %}
+{% set version = "0.1.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/openinference_instrumentation_haystack-{{ version }}.tar.gz
-  sha256: f971d53635664d5045e9c2685d7cfa927af6f1e404921854598f226422708926
+  sha256: 28b4454f50daf0490bbdb64706ceded372c8c69cb4437f4599a83f964cdbb935
 
 build:
   noarch: python
